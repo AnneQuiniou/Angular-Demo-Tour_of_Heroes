@@ -1,6 +1,12 @@
 /* Application-wide Styles */
+:root {
+  --orange: rgb(255, 86, 7);;
+  --pink: #ff53c8;
+}
+
+/* Application-wide Styles */
 h1 {
-    color: rgb(243, 93, 23);
+    color: var(--orange);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
   }

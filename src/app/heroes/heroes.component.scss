@@ -31,22 +31,22 @@
   }
   
   .heroes button:active {
-    background-color: #ff53c8;
+    background-color: var(--pink);
     color: #fafafa;
   }
   
   .heroes button.selected {
-    background-color: #ff53c8;
+    background-color: var(--pink);
     color: white;
   }
   
   .heroes button.selected:hover {
-    background-color: #ff53c8;
+    background-color: var(--pink);
     color: white;
   }
   
   .heroes button.selected:active {
-    background-color: #ff53c8;
+    background-color: var(--pink);
     color: white;
   }
   
@@ -55,7 +55,7 @@
     font-size: small;
     color: white;
     padding: 0.8em 0.7em 0 0.7em;
-    background-color: #fd6418;
+    background-color: var(--orange);
     line-height: 1em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
